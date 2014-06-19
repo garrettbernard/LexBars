@@ -1,0 +1,67 @@
+Recently Updated:
+
+July 23, 2009
+
+- Back-end control panel for bars to edit their own pages
+- updated login script
+- minor cosmetic updates
+- ability for a single user to be able to edit multiple bar pages (i.e. one person runs multiple bars)
+- link appears on bardetails if you're allowed to edit the page
+
+============================================================
+
+Looking towards the future... (ohhhh there's still so much to do!)
+... a lot of stuff has to work together to make everything user-friendly and easy to navigate!
+
+[in progress] individual bar edit area
+    - bar in-stock list
+    - upload menu
+    - multiple levels of edit ability (?) (bar owner, calender updates only, etc.) (probably won't be implemented)
+    
+[in progress] member profiles (post comments, etc)
+	- record IP address (in event someone needs to be banned)
+    
+[in progress] global and individual calendar system (option to include on master list or not)
+    - rss feed for master calendar? rss feed for individual calendar?
+    - calendar update options (built-in + XML + others?)
+    
+[in progress] admin area
+
+"updated since your last visit" link
+
+rating system (atmosphere? cost? service? ... other ratings? think of these!)
+
+XML to receive calendar entries (allows option for bar to update this calendar remotely)
+    - check to see if XML document is more than 30 minutes old on every page load
+    - grab remote XML document if it hasn't been downloaded in last 30 minutes (or hour?)
+
+WAP for cell phones
+
+mass mailer functions
+
+skin updates/make the site cooler looking (AJAX login and calendar?)
+	- need pictures of downtown for header
+	- new navigation buttons
+	- fix rounded border corners (some aren't very rounded)
+	- make the index page awesome/eye-catching/easier to read/full of useful information
+	- finish "crowd" images (offer new choices other than college/business/mixture?)
+	- redo comments skin (rounded corners, better colors)
+	- redo events skin (rounded corners, better colors, better spacing)
+	- new background? gray is pretty bland.
+	- maybe seperate the barpages out a little better? everything runs together
+	- picturespicturespicturespicturespicturespictures (rotating header w/ random bars?)
+	
+
+utilize google maps!
+
+update the bar listings for them all (get pictures, menus, stock listings, input to database, etc.)
+
+better seperation between template and code
+
+error pages
+
+verify security (sql injections, etc)
+
+message board (?) (will be implemented post-launch if necessary... would require significant changes to user login system)
+
+blog (?) (will be implemented post-launch if it would be useful)

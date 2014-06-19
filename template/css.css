@@ -1,0 +1,15 @@
+.header {
+  float: left;
+}
+#logo {
+  padding-left: 20px;
+  width: 268px;
+  height: 139px;
+}
+#menu {
+  float: right;
+}
+#seperate {
+  clear: both;
+  width: 100%;
+}

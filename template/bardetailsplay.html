@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+  <title>bardetails</title>
+<style type="text/css"></style><link rel="alternate stylesheet" href="../main.css" type="text/css"><link rel="stylesheet" href="../main.css" type="text/css"></head><body>
+<!-- bardetails.php template -->
+
+<?php class template_bardetails {
+	
+	function main_entry() {
+?>
+
+<div id="barpage_top">
+	<span id="bar_name">var-&gt;name</span>
+	var-&gt;image
+	<p id="bar_comments">var-&gt;bar_comments</p>
+</div>
+
+
+<div class="barpage_description">
+	<p>Crowd: var-&gt;crowd</p>
+	<p>Address: var-&gt;address</p>
+	<p>Date added: var-&gt;dateadded</p>
+	<p>Phone Number: var-&gt;phonenumber</p>
+	<p>Bar Open: var-&gt;time_open - var-&gt;time_closed</p>
+</div>
+
+
+<div id="events_container">
+var-&gt;events
+</div>
+</body>
+</html>
